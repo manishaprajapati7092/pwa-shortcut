@@ -5,7 +5,7 @@ Install the any app or website on home screen using progressive web apps.
 </p>
 <h1>Installation & Usage:</h1>
 <ol><li>In your<code>&lt;head&gt;</code>section, add the following links</li></ol>
-<pre><code>&lt;link href="manifest.webmanifest" rel="manifest"&gt;</code>
-<code>&lt;script src="index.js"&gt;</code>
-<code>&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"&gt;</code></pre>
+<pre><code>  &lt;link href="manifest.webmanifest" rel="manifest"&gt;</code></pre>
+<pre><code>  &lt;script src="index.js"&gt;</code></pre>
+<pre><code>  &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"&gt;</code></pre>
 
