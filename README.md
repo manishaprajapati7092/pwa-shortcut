@@ -59,7 +59,7 @@ Install the any app or website on home screen using progressive web apps.
 
 self.addEventListener('fetch', (e) => {
       console.log(e.request.url);
-      e.respondWith(
+       e.respondWith(
           caches.match(e.request).then((response) => response || fetch(e.request)),
       );
 });
